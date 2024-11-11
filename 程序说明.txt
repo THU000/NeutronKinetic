@@ -1,0 +1,18 @@
+stepPositive.m  阶跃正反应性，并验证理论计算曲线
+                配合函数文件 calculateNeutronWithRhoArray.m
+
+stepPositiveChangeRho.m  阶跃正反应性，改变反应性大小
+                         配合函数文件 calculateNeutronWithRhoArray.m
+
+stepNegative.m  阶跃负反应性，改变反应性大小
+                配合函数文件 calculateNeutronWithRhoArray.m
+
+linear.m  线性反应性，改变反应性大小
+          配合函数文件 linearCalculateNeutronWithRhoArray.m
+
+sine.m  正弦反应性，不改变反应性大小，支持代码中改变
+        配合函数文件 sineCalculateNeutronWithRhoArray.m
+
+calculateNeutronWithRhoArray.m        核心计算函数
+linearCalculateNeutronWithRhoArray.m  核心计算函数
+sineCalculateNeutronWithRhoArray.m    核心计算函数
